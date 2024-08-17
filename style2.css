@@ -1,0 +1,146 @@
+.gradient-background {
+    background: linear-gradient(300deg, #522dfe, #8c75fe);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+body {
+    background-color: #e1e0de;
+     padding: 2%;
+   
+}
+
+.inner-container {
+    background-color: #edf0f5;
+    border-radius: 20px;
+    height: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+ 
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: left;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+ 
+
+.btn-purple {
+  background-color: #8b74fe;
+  border-color: purple;
+  padding-left: 40px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+  
+  
+
+.btn-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.icons button {
+  margin-right: 10px; /* Adjust this value as needed */
+}
+
+.user-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px; /* Adjust this value as needed */
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.product-card {
+  width: 12rem;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image {
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rating {
+  color: #FFD700; /* Golden yellow color for stars */
+}
+
+.product-card:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.2); /* Increase the scale of the image on hover */
+}
+.checked {
+  color: orange;
+}
+
+
+
+

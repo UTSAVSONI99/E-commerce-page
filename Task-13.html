@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-13</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+   
+      <div class="inner-container">
+        <div class="column-1">
+          <div
+            class="d-flex flex-column flex-shrink-0 p-3 gradient-background"
+            style="
+              width: 250px;
+              height: 100%;
+              border-radius: 20px 45px 45px 20px;
+              background-color: #6b4cfe;
+            "
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+            >
+              <svg class="bi pe-none me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+              <span class="fs-4" style="color: white">E commerce</span>
+            </a>
+            <hr />
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link link-body-emphasis"
+                  style="color: white"
+                >
+                  <i class="bi bi-ui-checks-grid" style="color: white"></i>
+                  <span style="margin-left: 10px; color: white">Dashboard</span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="nav-link link-body-emphasis"
+                  style="color: white"
+                >
+                  <i class="bi bi-search" style="color: white"></i>
+                  <span style="margin-left: 10px; color: white">Discover</span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="nav-link active"
+                  aria-current="page"
+                  style="background-color: white; color: black"
+                >
+                  <i class="bi bi-bag-heart" style="color: black"></i>
+                  <span style="margin-left: 10px; color: black">Product</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link link-body-emphasis"
+                  style="color: white"
+                >
+                  <i class="bi bi-cart4" style="color: white"></i>
+                  <span style="margin-left: 10px; color: white"
+                    >Product Sale</span
+                  >
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link link-body-emphasis"
+                  style="color: white"
+                >
+                  <i class="bi bi-people-fill" style="color: white"></i>
+                  <span style="margin-left: 10px; color: white">Team</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link link-body-emphasis"
+                  style="color: white"
+                >
+                  <i class="bi bi-list" style="color: white"></i>
+                  <span style="margin-left: 10px; color: white">List</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link link-body-emphasis"
+                  style="color: white"
+                >
+                  <i class="bi bi-envelope-at-fill" style="color: white"></i>
+                  <span style="margin-left: 10px; color: white">E-mail</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link link-body-emphasis"
+                  style="color: white"
+                >
+                  <i class="bi bi-basket-fill" style="color: white"></i>
+                  <span style="margin-left: 10px; color: white">Checkout</span>
+                </a>
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+
+
+
+        <div class="column-2">
+          <div class="container mt-4 mx-4">
+            <form class="form-inline">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <div class="input-group-append">
+                        <button class="btn btn-purple" type="button">
+                          <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+      </div>
+      
+     
+      <div class="container  mt-n5">
+        <form class="form-inline">
+              <div class="ml-auto">
+                <div class="icons">
+                  
+                    <button class="btn btn-icon" type="button">
+                        <i class="fas fa-th"></i> <!-- Check-Grid Icon -->
+                    </button>
+                    <button class="btn btn-icon" type="button">
+                        <i class="fas fa-bell"></i> <!-- Notification Bell Icon -->
+                    </button>
+                    <button class="btn btn-icon" type="button">
+                        <i class="fas fa-ellipsis-v"></i> <!-- Three Dots Icon -->
+                    </button>
+                    <img src="./Mesh.jpg" alt="User Profile" class="user-profile">
+                </div>
+            </div>
+        </form>
+    </div>
+            
+                                  
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-12">
+              <h2>Products</h2>
+          </div>
+      </div>
+  
+      <div class="row">
+          <!-- Repeat the following product card block for each product -->
+          <div class="col-md-3">
+              <div class="card product-card">
+                  <img src="./Girl watch.png" class="card-img-top product-image" alt="Product Image">
+                  <div class="card-body">
+                      <h6 class="card-title">Girlwatch</h6>
+                      <div class="rating">
+                          
+                          <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                          <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star"></span> 
+                           <span class="fa fa-star"></span>
+                      </div>
+                      <p class="card-text">Price: $19.99</p>
+                  </div>
+                  <!-- Move "Buy Now" button to the right -->
+                  <div class="card-footer text-right">
+                      <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div class="card product-card">
+                <img src="./Girlbag.png" class="card-img-top product-image" alt="Product Image">
+                <div class="card-body">
+                    <h6 class="card-title">Girlbag</h6>
+                    <div class="rating">
+                        
+                        <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                        <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star"></span> 
+                         <span class="fa fa-star"></span>
+                    </div>
+                    <p class="card-text">Price: $24.99</p>
+                </div>
+                <!-- Move "Buy Now" button to the right -->
+                <div class="card-footer text-right">
+                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+              <img src="./boybag.png" class="card-img-top product-image" alt="Product Image">
+              <div class="card-body">
+                  <h6 class="card-title">boybag</h6>
+                  <div class="rating">
+                      
+                      <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                      <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span> 
+                       <span class="fa fa-star"></span>
+                  </div>
+                  <p class="card-text">Price: $35.99</p>
+              </div>
+              <!-- Move "Buy Now" button to the right -->
+              <div class="card-footer text-right">
+                  <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card product-card">
+            <img src="./boywatch.png" class="card-img-top product-image" alt="Product Image">
+            <div class="card-body">
+                <h6 class="card-title">boywatch</h6>
+                <div class="rating">
+                    
+                    <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                    <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star"></span> 
+                     <span class="fa fa-star"></span>
+                </div>
+                <p class="card-text">Price: $64.99</p>
+            </div>
+            <!-- Move "Buy Now" button to the right -->
+            <div class="card-footer text-right">
+                <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+            </div>
+        </div>
+    </div>
+       
+      </div>
+                                    <!-- Add pagination -->
+
+      <div class="row mt-4">
+        <div class="col-12">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                        <span class="page-link">Previous</span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+                                 <!-- second row -->
+
+      <div class="row mt-4">
+          <div class="col-12">
+              <h2>Best Products</h2>
+          </div>
+      </div>
+  
+      <div class="row">
+          <!-- Repeat the following best product card block for each best product -->
+          <div class="col-md-3">
+              <div class="card product-card">
+                  <img src="./NIkeShoe.png" class="card-img-top product-image" alt="Best Product Image">
+                  <div class="card-body">
+                      <h6 class="card-title">Nikeshoe</h6>
+                      <div class="rating">
+                          <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span> 
+                          <span class="fa fa-star"></span>
+                      </div>
+                      <p class="card-text">Price: $100.99</p>
+                  </div>
+                  <!-- Move "Buy Now" button to the right -->
+                  <div class="card-footer text-right">
+                      <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card product-card">
+              <img src="./watch.png" class="card-img-top product-image" alt="Best Product Image">
+                <div class="card-body">
+                    <h6 class="card-title">watch</h6>
+                    <div class="rating">
+                        <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p class="card-text">Price: $155.99</p>
+                </div>
+                <!-- Move "Buy Now" button to the right -->
+                <div class="card-footer text-right">
+                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card product-card">
+              <img src="./Travelbag.png" class="card-img-top product-image" alt="Best Product Image">
+              <div class="card-body">
+                  <h6 class="card-title">Travelbag</h6>
+                  <div class="rating">
+                      <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span> 
+                      <span class="fa fa-star"></span>
+                  </div>
+                  <p class="card-text">Price: $172.99</p>
+              </div>
+              <!-- Move "Buy Now" button to the right -->
+              <div class="card-footer text-right">
+                  <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card product-card">
+            <img src="./bag.png" class="card-img-top product-image" alt="Best Product Image">
+            <div class="card-body">
+                <h6 class="card-title">Bag</h6>
+                <div class="rating">
+                    <!-- Add rating stars here (e.g., using Font Awesome or other icon libraries) -->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> 
+                    <span class="fa fa-star"></span>
+                </div>
+                <p class="card-text">Price: $250.99</p>
+            </div>
+            <!-- Move "Buy Now" button to the right -->
+            <div class="card-footer text-right">
+                <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+     
+  
+ </div>
+  
+   
+     
+  </div>
+
+          </div>
+        </nav>
+        </div>
+      
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
